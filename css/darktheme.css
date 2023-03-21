@@ -10,12 +10,14 @@
   --FTR_0: #171717;
   --MENU_0:rgba(23, 23, 26, 0.55);
   --border:2px solid rgb(22, 22, 25);
+  --ava: url(/img/logo_dark.png);
 }
 @media (prefers-color-scheme:light) {
     html:not(._dark) {
         --BG_0: #f1f1f1;
         --TXT_0: #1d1d1d;
         --FTR_0: #d9d9d9;
+        --ava: url(/img/logo_light.png);
         --MENU_0: rgba(23, 23, 26, 0.15);
         --border: 2px solid rgb(93, 93, 93);
     }
@@ -247,7 +249,7 @@ button{
     font-weight: 700;
     margin: 0 0 40px;
     text-align: center;
-    color: #fff;
+    color: var(--TXT_0);
     font-family: 'Manrope', sans-serif;
   }
 
@@ -261,7 +263,7 @@ h2{
   font-weight: 700;
   margin: 0px;
   position: relative;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -270,7 +272,7 @@ h3{
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 20px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -278,7 +280,7 @@ h3{
 h4{
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -286,7 +288,7 @@ h4{
 p{
   font-size: 18px;
   line-height: 30px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
 }
 
@@ -432,7 +434,6 @@ p{
 .logo{
   width: 50px;
   height: 50px;
-
 }
 
 /*
@@ -513,7 +514,7 @@ p{
 .mainnav>ul li a{
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: var(--TXT_0);
     text-decoration: none;
     transition: 0.1s;
     font-family: 'Manrope', sans-serif;
@@ -546,7 +547,7 @@ p{
     font-weight: 700;
     margin: 0 0 40px;
     text-align: center;
-    color: #fff;
+    color: var(--TXT_0);
     font-family: 'Manrope', sans-serif;
   }
 
@@ -560,7 +561,7 @@ h2{
   font-weight: 700;
   margin: 0 0 40px;
   position: relative;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -569,7 +570,7 @@ h3{
   font-size: 23px;
   font-weight: 600;
   margin: 10px 0 20px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -577,7 +578,7 @@ h3{
 h4{
   font-size: 12px;
   font-weight: 600;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -585,7 +586,7 @@ h4{
 p{
   font-size: 18px;
   line-height: 30px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Inter';
 }
@@ -614,7 +615,7 @@ p{
 .mainnav>ul li a{
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: var(--TXT_0);
     text-decoration: none;
     transition: 0.1s;
     font-family: 'Manrope', sans-serif;
@@ -667,7 +668,7 @@ p{
     font-weight: 700;
     margin: 0 0 40px;
     text-align: center;
-    color: #fff;
+    color: var(--TXT_0);
     font-family: 'Manrope', sans-serif;
   }
   .containerC{
@@ -684,7 +685,7 @@ h2{
   font-weight: 700;
   margin: 0 0 40px;
   position: relative;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -693,7 +694,7 @@ h3{
   font-size: 23px;
   font-weight: 600;
   margin: 10px 0 20px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -701,7 +702,7 @@ h3{
 h4{
   font-size: 12px;
   font-weight: 600;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -709,7 +710,7 @@ h4{
 p{
   font-size: 16px;
   line-height: 30px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Inter';
 }
@@ -738,7 +739,7 @@ p{
 .mainnav>ul li a{
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: var(--TXT_0);
     text-decoration: none;
     transition: 0.1s;
     font-family: 'Manrope', sans-serif;
@@ -789,7 +790,7 @@ p{
     font-weight: 700;
     margin: 0 0 40px;
     text-align: center;
-    color: #fff;
+    color: var(--TXT_0);
     font-family: 'Manrope', sans-serif;
   }
   .mini{
@@ -805,7 +806,7 @@ h2{
   font-weight: 700;
   margin: 0 0 40px;
   position: relative;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -814,7 +815,7 @@ h3{
   font-size: 10px;
   font-weight: 600;
   margin: 10px 0 20px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -822,7 +823,7 @@ h3{
 h4{
   font-size: 12px;
   font-weight: 600;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
   font-family: 'Manrope', sans-serif;
 }
@@ -830,7 +831,7 @@ h4{
 p{
   font-size: 8px;
   line-height: 10px;
-  color: #fff;
+  color: var(--TXT_0);
   text-align: center;
 }
 
