@@ -29,7 +29,8 @@ wikiqg.addEventListener('click', function () {
 })
 wikiqs.addEventListener('click', function () {
     window.location.href = 'balance';
-})
-wikialpha.addEventListener('click', function () {
+});
+
+querySelector("#wikialpha").addEventListener('click', function () {
     window.location.href = 'alpha';
-})
+});
