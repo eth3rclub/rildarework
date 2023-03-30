@@ -30,3 +30,6 @@ wikiqg.addEventListener('click', function () {
 wikiqs.addEventListener('click', function () {
     window.location.href = 'balance';
 })
+wikiqc.addEventListener('click', function () {
+    window.location.href = 'alpha';
+})
