@@ -31,6 +31,6 @@ wikiqs.addEventListener('click', function () {
     window.location.href = 'balance';
 });
 
-querySelector("#wikialpha").addEventListener('click', function () {
+document.querySelector("#wikialpha").addEventListener('click', function () {
     window.location.href = 'alpha';
 });
