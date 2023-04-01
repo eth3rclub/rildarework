@@ -224,7 +224,7 @@ button{
   transition: 0.2s;
 }
 .btna:hover {
-  background-color: rgb(27, 174, 93);
+  background-color: #db5569;
 }
 
 
@@ -378,7 +378,7 @@ p{
 декор текста
 */
 .text span {
-  color: #26e27b;
+  color: #db5569;
 }
 
 .orange {
@@ -413,14 +413,14 @@ p{
 .greentxt span{
   color: rgb(39, 211, 116);
 }
-.greenback span{
+.redback span{
   padding: 2px 10px;
   margin-right: 10px;
   border-radius: 8px;
-  background-color: rgb(39, 211, 116);
+  background-color: #db5569;
   color: var(--TXT_0);
 }
-.greenback>h2 span{
+.redback>h2 span{
   font-size: 15px;
 }
 .purpletxt span{
