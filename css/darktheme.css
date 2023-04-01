@@ -47,7 +47,7 @@ body{
 #prgsBar2 {
     border-radius: 4px;
     margin: auto;
-    background-color: #36cd64;
+    background-color: #db5569;
     width: 0;
     position: fixed;
     text-align: center;
@@ -83,11 +83,11 @@ body{
     padding: 3px 8px;
 }
 .mainnav>ul li a:hover{
-    color: #36cd64;
+    color: #db5569;
     background-color:rgba(255, 255, 255, 0.1);
 }
 .mainnav>ul li.active a{
-    color: #36cd64;
+    color: #db5569;
 }
 
 .mainnav>ul li img{
@@ -255,7 +255,7 @@ button{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #36cd64;
+    border: 2px solid #db5569;
     max-width: 300px;
 }
 h2{
@@ -452,7 +452,7 @@ p{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #36cd64;
+    border: 2px solid #db5569;
     max-width: 300px;
 }
 h2{
@@ -520,10 +520,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #36cd64;
+    color: #db5569;
 }
 .mainnav>ul li.active a{
-    color: #36cd64;
+    color: #db5569;
 }
 
 .mainnav>ul li img{
@@ -553,7 +553,7 @@ p{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #36cd64;
+    border: 2px solid #db5569;
     max-width: 300px;
 }
 h2{
@@ -621,10 +621,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #36cd64;
+    color: #db5569;
 }
 .mainnav>ul li.active a{
-    color: #36cd64;
+    color: #db5569;
 }
 
 .mainnav>ul li img{
@@ -677,7 +677,7 @@ p{
   }
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #36cd64;
+    border: 2px solid #db5569;
     max-width: 300px;
 }
 h2{
@@ -745,10 +745,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #36cd64;
+    color: #db5569;
 }
 .mainnav>ul li.active a{
-    color: #36cd64;
+    color: #db5569;
 }
 
 .mainnav>ul li img{
@@ -798,7 +798,7 @@ p{
   }
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #36cd64;
+    border: 2px solid #db5569;
     max-width: 300px;
 }
 h2{
